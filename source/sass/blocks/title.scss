@@ -1,0 +1,30 @@
+.title {
+  margin: 0;
+  font-weight: 700;
+  font-family: $ff-roboto;
+  color: $color-default-black;
+
+  &--h1 {
+    font-size: 100px;
+    line-height: 120px;
+  }
+
+  &--h2 {
+    font-size: 94px;
+    line-height: 110px;
+  }
+
+  &--h3 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  &--h4 {
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  &--white {
+    color: $color-default-white;
+  }
+}
