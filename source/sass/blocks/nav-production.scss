@@ -1,0 +1,22 @@
+.nav-production {
+  list-style: none;
+  display: flex;
+  margin: 0 49px 0 22px;
+  padding: 0;
+
+  &__item {
+    margin-left: 45px;
+    margin-top: 2px;
+  }
+
+  &__item a {
+    font-size: 16px;
+    line-height: 19px;
+    color: $color-black;
+  }
+
+  &__item svg {
+    margin-left: 5px;
+    margin-bottom: 2px;
+  }
+}
