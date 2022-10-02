@@ -1,0 +1,41 @@
+.contacts {
+  &__list {
+    margin: 19px 2px 0 51px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    margin-bottom: 9px;
+  }
+
+  &__mail {
+    margin-right: 13px;
+  }
+
+  &__item a {
+    display: flex;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: $color-black;
+  }
+
+  &__image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background-color: $color-school-bus-yellow;
+    margin-right: 11px;
+  }
+
+  &__image-wrapper + span {
+    margin: 4px 0 0 0;
+  }
+}

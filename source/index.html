@@ -16,7 +16,7 @@
 </head>
 
 <body class="page-body">
-  <!-- <div class="wrapper"> -->
+  <div class="wrapper">
     <header class="page-header">
       <div class="container">
         <nav class="main-nav">
@@ -47,7 +47,11 @@
             </ul>
             <ul class="nav-production">
               <li class="nav-production__item">
-                <a href="">Продукция</a>
+                <a href="">Продукция
+                  <svg width="12" height="7" aria-label="Логотип Katres">
+                    <use xlink:href="img/sprite/sprite.svg#arrow-down"></use>
+                  </svg>
+                </a>
                 <ul class="nav-submenu">
                   <li class="nav-submenu__item">
                     <a href="">Стандартные сушки</a>
@@ -70,7 +74,7 @@
                 <a href="">Реализованные проекты</a>
               </li>
             </ul>
-            <a href="">Заказать звонок</a>
+            <a class="btn btn--nav" href="">Заказать звонок</a>
           </div>
           <div class="main-nav__contacts contacts">
             <ul class="contacts__list">
@@ -118,8 +122,10 @@
                 <img src="./img/content/slide1-d.jpg" srcset="./img/content/slide1-d@2x.jpg 2x" width="1920"
                   height="750" alt="Фото сооружения сушильной камеры">
               </picture>
-              <h2 class="title title--h2 title--white" >Самые лучшие сушильные камеры</h2>
-              <p>Самые лучшие сушильные камеры cамые лучшие сушильные камеры cамые лучшие сушильные камеры</p>
+              <div class="intro__slide-desription">
+                <h2 class="title title--h2 title--white">Самые лучшие сушильные камеры</h2>
+                <p>Самые лучшие сушильные камеры cамые лучшие сушильные камеры cамые лучшие сушильные камеры</p>
+              </div>
             </div>
             <div class="swiper-slide intro__slide">
               <picture>
@@ -135,8 +141,10 @@
                 <img src="./img/content/slide1-d.jpg" srcset="./img/content/slide1-d@2x.jpg 2x" width="1920"
                   height="750" alt="Фото сооружения сушильной камеры">
               </picture>
-              <h2 class="title title--h2 title--white" >Самые лучшие сушильные камеры</h2>
-              <p>Самые лучшие сушильные камеры cамые лучшие сушильные камеры cамые лучшие сушильные камеры</p>
+              <div class="intro__slide-desription">
+                <h2 class="title title--h2 title--white">Самые лучшие сушильные камеры</h2>
+                <p>Самые лучшие сушильные камеры cамые лучшие сушильные камеры cамые лучшие сушильные камеры</p>
+              </div>
             </div>
             <div class="swiper-slide intro__slide">
               <picture>
@@ -152,8 +160,10 @@
                 <img src="./img/content/slide1-d.jpg" srcset="./img/content/slide1-d@2x.jpg 2x" width="1920"
                   height="750" alt="Фото сооружения сушильной камеры">
               </picture>
-              <h2 class="title title--h2 title--white" >Самые лучшие сушильные камеры</h2>
-              <p>Самые лучшие сушильные камеры cамые лучшие сушильные камеры cамые лучшие сушильные камеры</p>
+              <div class="intro__slide-desription">
+                <h2 class="title title--h2 title--white">Самые лучшие сушильные камеры</h2>
+                <p>Самые лучшие сушильные камеры cамые лучшие сушильные камеры cамые лучшие сушильные камеры</p>
+              </div>
             </div>
             <div class="swiper-slide intro__slide">
               <picture>
@@ -169,8 +179,10 @@
                 <img src="./img/content/slide1-d.jpg" srcset="./img/content/slide1-d@2x.jpg 2x" width="1920"
                   height="750" alt="Фото сооружения сушильной камеры">
               </picture>
-              <h2 class="title title--h2 title--white" >Самые лучшие сушильные камеры</h2>
-              <p>Самые лучшие сушильные камеры cамые лучшие сушильные камеры cамые лучшие сушильные камеры</p>
+              <div class="intro__slide-desription">
+                <h2 class="title title--h2 title--white">Самые лучшие сушильные камеры</h2>
+                <p>Самые лучшие сушильные камеры cамые лучшие сушильные камеры cамые лучшие сушильные камеры</p>
+              </div>
             </div>
             <div class="swiper-slide intro__slide">
               <picture>
@@ -186,19 +198,120 @@
                 <img src="./img/content/slide1-d.jpg" srcset="./img/content/slide1-d@2x.jpg 2x" width="1920"
                   height="750" alt="Фото сооружения сушильной камеры">
               </picture>
-              <h2 class="title title--h2 title--white" >Самые лучшие сушильные камеры</h2>
-              <p>Самые лучшие сушильные камеры cамые лучшие сушильные камеры cамые лучшие сушильные камеры</p>
+              <div class="intro__slide-desription">
+                <h2 class="title title--h2 title--white">Самые лучшие сушильные камеры</h2>
+                <p>Самые лучшие сушильные камеры cамые лучшие сушильные камеры cамые лучшие сушильные камеры</p>
+              </div>
             </div>
           </div>
         </div>
-        <button class="swiper-button-prev intro__button-prev">Назад</button>
-        <button class="swiper-button-next intro__button-next">Вперед</button>
+        <!-- <button class="swiper-button-prev intro__button-prev">Назад</button> -->
+        <!-- <button class="swiper-button-next intro__button-next">Вперед</button> -->
+      </section>
+      <section class="products">
+        <h2>Продукция</h2>
+        <ul class="products__list">
+          <li class="products__item products__item--big">
+            <a href="" class="products__link products__link--column">
+              <picture>
+                <!-- 1х: 328px; 2x: 656px -->
+                <source type="image/webp" media="(max-width: 767px)"
+                  srcset="./img/content/standard-drying-m.webp 1x, ./img/content/standard-drying-m@2x.webp 2x">
+                <!-- 1х: 570px; 2x: 1040px -->
+                <source type="image/webp"
+                  srcset="./img/content/standard-drying-d.webp 1x, ./img/content/standard-drying-d@2x.webp 2x">
+                <!-- 1х: 328px; 2x: 656px -->
+                <source media="(max-width: 767px)"
+                  srcset="./img/content/standard-drying-m.jpg 1x, ./img/content/standard-drying-m@2x.jpg 2x">
+                <!-- 1х: 570px; 2x: 1040px -->
+                <img src="./img/content/standard-drying-d.jpg" srcset="./img/content/standard-drying-d@2x.jpg 2x"
+                  width="570" height="301" alt="Фото сооружения сушильной камеры">
+              </picture>
+              <p>Стандартные сушки</p>
+            </a>
+          <li class="products__item products__item--second">
+            <a href="" class="products__link">
+              <picture>
+                <!-- 1х: 189px; 2x: 378px -->
+                <source type="image/webp" media="(max-width: 767px)"
+                  srcset="./img/content/belt-drying-m.webp 1x, ./img/content/belt-drying-m@2x.webp 2x">
+                <!-- 1х: 328px; 2x: 656px -->
+                <source type="image/webp"
+                  srcset="./img/content/belt-drying-d.webp 1x, ./img/content/belt-drying-d@2x.webp 2x">
+                <!-- 1х: 189px; 2x: 378px -->
+                <source media="(max-width: 767px)"
+                  srcset="./img/content/belt-drying-m.jpg 1x, ./img/content/belt-drying-m@2x.jpg 2x">
+                <!-- 1х: 328px; 2x: 656px -->
+                <img src="./img/content/belt-drying-d.jpg" srcset="./img/content/belt-drying-d@2x.jpg 2x" width="328"
+                  height="174" alt="Фото сооружения сушильной камеры">
+              </picture>
+              <p>Ленточные сушки</p>
+            </a>
+          <li class="products__item">
+            <a href="" class="products__link">
+              <picture>
+                <!-- 1х: 189px; 2x: 378px -->
+                <source type="image/webp" media="(max-width: 767px)"
+                  srcset="./img/content/nordic-line-m.webp 1x, ./img/content/nordic-line-m@2x.webp 2x">
+                <!-- 1х: 327px; 2x: 654px -->
+                <source type="image/webp"
+                  srcset="./img/content/nordic-line-d.webp 1x, ./img/content/nordic-line-d@2x.webp 2x">
+                <!-- 1х: 189px; 2x: 378px -->
+                <source media="(max-width: 767px)"
+                  srcset="./img/content/nordic-line-m.jpg 1x, ./img/content/nordic-line-m@2x.jpg 2x">
+                <!-- 1х: 327px; 2x: 654px -->
+                <img src="./img/content/nordic-line-d.jpg" srcset="./img/content/nordic-line-d@2x.jpg 2x" width="327"
+                  height="174" alt="Фото сооружения сушильной камеры">
+              </picture>
+              <p>Nordic Line</p>
+            </a>
+          <li class="products__item">
+            <a href="" class="products__link">
+              <picture>
+                <!-- 1х: 189px; 2x: 378px -->
+                <source type="image/webp" media="(max-width: 767px)"
+                  srcset="./img/content/high-temperature-drying-m.webp 1x, ./img/content/high-temperature-drying-m@2x.webp 2x">
+                <!-- 1х: 180px; 2x: 360px -->
+                <source type="image/webp"
+                  srcset="./img/content/high-temperature-drying-d.webp 1x, ./img/content/high-temperature-drying-d@2x.webp 2x">
+                <!-- 1х: 189px; 2x: 378px -->
+                <source media="(max-width: 767px)"
+                  srcset="./img/content/high-temperature-drying-m.jpg 1x, ./img/content/high-temperature-drying-m@2x.jpg 2x">
+                <!-- 1х: 180px; 2x: 360px -->
+                <img src="./img/content/high-temperature-drying-d.jpg"
+                  srcset="./img/content/high-temperature-drying-d@2x.jpg 2x" width="180" height="174"
+                  alt="Фото сооружения сушильной камеры">
+              </picture>
+              <p>Высокотемпературные сушки</p>
+            </a>
+          <li class="products__item">
+            <a href="" class="products__link">
+              <picture>
+                <!-- 1х: 328px; 2x: 656px -->
+                <source type="image/webp" media="(max-width: 767px)"
+                  srcset="./img/content/tunnel-drying-m.webp 1x, ./img/content/tunnel-drying-m@2x.webp 2x">
+                <!-- 1х: 570px; 2x: 1040px -->
+                <source type="image/webp"
+                  srcset="./img/content/tunnel-drying-d.webp 1x, ./img/content/tunnel-drying-d@2x.webp 2x">
+                <!-- 1х: 328px; 2x: 656px -->
+                <source media="(max-width: 767px)"
+                  srcset="./img/content/tunnel-drying-m.jpg 1x, ./img/content/tunnel-drying-m@2x.jpg 2x">
+                <!-- 1х: 570px; 2x: 1040px -->
+                <img src="./img/content/tunnel-drying-d.jpg" srcset="./img/content/tunnel-drying-d@2x.jpg 2x"
+                  width="331" height="174" alt="Фото сооружения сушильной камеры">
+              </picture>
+              <p>Туннельные сушки</p>
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
     <footer>
-      <div class="container"></div>
+      <div class="container">
+        <p>Футер</p>
+      </div>
     </footer>
-  <!-- </div> -->
+  </div>
 
   <!-- Модалки -->
   <div class="modal modal--preload" data-modal="feedback">
