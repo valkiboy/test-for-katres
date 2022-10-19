@@ -50,5 +50,17 @@
         </g>
       </symbol>
 
+      <symbol viewBox="0 0 19 19" id="checkbox-off">
+        <g>
+          <rect x="0.5" y="0.5" width="18" height="18" rx="1.5" fill="none" stroke="#A1A1A1"/>
+        </g>
+      </symbol>
+
+      <symbol viewBox="0 0 19 19" id="checkbox-on">
+        <g>
+          <rect x="0.5" y="0.5" width="18" height="18" rx="1.5" fill="green" stroke="#A1A1A1"/>
+        </g>
+      </symbol>
+
 </svg>
 

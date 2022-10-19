@@ -1,12 +1,34 @@
 .nav-submenu {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 11px 19px 10px 20px;
   display: none;
+  position: absolute;
+  left: -41px;
+  top: 53px;
+  z-index: 2;
+  width: 427px;
+  min-height: 266px;
+  background-color: $color-default-white;
+
+  &--open {
+    display: block;
+  }
 
   &__item a {
+    display: inline-block;
+    width: 100%;
     font-size: 16px;
     line-height: 19px;
     color: $color-black;
+    padding: 15px 21px;
+  }
+
+  &__item:not(:last-child) {
+    border-bottom: 1px solid $color-gainsboro;
+  }
+
+  &__item:hover {
+    font-weight: 600;
   }
 }

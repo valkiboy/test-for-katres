@@ -30,43 +30,43 @@
           <div class="main-nav__inner">
             <ul class="nav-different">
               <li class="nav-different__item">
-                <a href="">О заводе</a>
+                <a href="#">О заводе</a>
               </li>
               <li class="nav-different__item">
-                <a href="">Новости</a>
+                <a href="#">Новости</a>
               </li>
               <li class="nav-different__item">
-                <a href="">Сервис</a>
+                <a href="#">Сервис</a>
               </li>
               <li class="nav-different__item">
-                <a href="">Лизинг</a>
+                <a href="#">Лизинг</a>
               </li>
               <li class="nav-different__item">
-                <a href="">Контакты</a>
+                <a href="#">Контакты</a>
               </li>
             </ul>
             <ul class="nav-production">
               <li class="nav-production__item">
-                <a href="">Продукция
-                  <svg width="12" height="7" aria-label="Логотип Katres">
+                <a href="#" class="nav-production__link">Продукция
+                  <svg width="12" height="7" aria-label="Стрелка вниз">
                     <use xlink:href="img/sprite/sprite.svg#arrow-down"></use>
                   </svg>
                 </a>
                 <ul class="nav-submenu">
                   <li class="nav-submenu__item">
-                    <a href="">Стандартные сушки</a>
+                    <a href="#">Стандартные сушки</a>
                   </li>
                   <li class="nav-submenu__item">
-                    <a href="">Ленточные сушки</a>
+                    <a href="#">Ленточные сушки</a>
                   </li>
                   <li class="nav-submenu__item">
-                    <a href="">Nordic Line</a>
+                    <a href="#">Nordic Line</a>
                   </li>
                   <li class="nav-submenu__item">
-                    <a href="">Высокотемпературные сушки</a>
+                    <a href="#">Высокотемпературные сушки</a>
                   </li>
                   <li class="nav-submenu__item">
-                    <a href="">Туннельные сушки</a>
+                    <a href="#">Туннельные сушки</a>
                   </li>
                 </ul>
               </li>
@@ -318,12 +318,33 @@
     <div class="modal__wrapper">
       <div class="modal__overlay" data-close-modal></div>
       <div class="modal__content">
-        <p class="modal__description">Заказать звонок</p>
         <button class="modal__close-btn btn-reset" type="button" aria-label="Закрыть попап" data-close-modal>
-          <svg width="15" height="15">
-            <use xlink:href="img/sprite_auto.svg#icon-close"></use>
-          </svg>
         </button>
+        <p class="modal__description">Заказать звонок</p>
+        <div class="modal__inner">
+          <form class="modal__form" method="post" action="https://echo.htmlacademy.ru/" autocomplete="off">
+            <div>
+              <label for="modal-name" class="visually-hidden"></label>
+              <input type="text" id="modal-name" name="name" placeholder="Ваше имя*" required aria-label="Введите ваше имя">
+            </div>
+            <div>
+              <label for="modal-telephone" class="visually-hidden"></label>
+              <input type="tel" id="modal-telephone" name="telephone" placeholder="Телефон*" required
+                aria-label="Введите ваш телефон">
+            </div>
+            <div>
+              <textarea placeholder="Введите сообщение..."></textarea>
+            </div>
+            <div class="modal__checkbox-wrap">
+              <div>
+                <input class="checkbox visually-hidden modal__checkbox" type="checkbox" id="modal-privacy"
+                  name="privacy" checked required>
+                <label for="modal-privacy">Я&nbsp;согласен на&nbsp;обработку персональных данных</label>
+              </div>
+              <button class="button noselect button--submit-modal" type="submit">Отправить</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </div>
